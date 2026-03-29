@@ -1,0 +1,6 @@
+venv/
+dataset/
+models/
+raw_leaf/
+raw_leaf_no_duplicates/
+siliguide_no_augmentation_no_fine_tuning_train_result.png
