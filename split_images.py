@@ -5,8 +5,12 @@ import shutil
 SOURCE_DIR = "raw_leaf_no_duplicates/dataset_leaf_no_duplicates"
 OUTPUT_DIR = "dataset"
 
-# 80% for training, 10% for validation, 10% for testing
-SPLIT = (0.8, 0.1, 0.1)
+# 70% for training, 15% for validation, 15% for testing
+SPLIT = (0.7, 0.15, 0.15)
+
+# check OUPTUT_DIR exists, if not create it
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
 
 # get class names from source directory
 classes = os.listdir(SOURCE_DIR)
