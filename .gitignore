@@ -23,3 +23,9 @@ march_31/
 dataset_checker/
 dataset_checker2/
 dataset_of_model_2_to_4/
+.venv/
+.venv-linux/
+runs/
+test/
+train/
+valid/
